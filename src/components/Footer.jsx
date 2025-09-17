@@ -251,7 +251,6 @@ const Footer = () => {
               </a>
             </div>
 
-            {/* Copyright and Disclaimer */}
             <p className="text-center font-[400] text-[#54595F] text-[12px] font-poppins ">
               Disclaimer : LeadCRM is not endorsed or certified by LinkedIn. All
               LinkedIn(tm) logos and trademarks displayed on this tool are
