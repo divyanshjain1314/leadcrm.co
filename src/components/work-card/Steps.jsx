@@ -3,7 +3,7 @@ import card1Img from "../../assets/images/card1img.png";
 import card2Img from "../../assets/images/card2img.png";
 import card3Img from "../../assets/images/card3img.png";
 import card4Img from "../../assets/images/card4img.png";
-import cardsLine from "../../assets/images/union.png";
+import cardsLine from "../../assets/images/unions.png"
 
 const stepsData = [
   {
