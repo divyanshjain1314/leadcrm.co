@@ -13,7 +13,8 @@ import Pipedrive from "../assets/icons/Pipedrive.svg";
 import Salesforce from "../assets/icons/Salesforce.svg";
 import HubSpot from "../assets/icons/HubSpot.svg";
 import zohoLogo from "../assets/images/zoho.png";
-import CollaborationIcon from "../assets/icons/collaboration.svg";
+import CollaborationIcon from "../assets/icons/coll.svg";
+
 const btn = (props) => {
   const classNames = `${
     props.type === "primary"
