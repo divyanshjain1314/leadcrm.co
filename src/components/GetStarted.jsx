@@ -69,7 +69,7 @@ const GetStarted = () => {
               style={{ backdropFilter: "blur(15.560656547546387px)" }}
             >
               <img src={img1} alt="" />
-              <div className="btn-shaow-starter-section absolute bottom-[20px] right-0  bg-[#1D4841] h-[38.19px] w-[194.07px] rounded-[23.37px] flex justify-center items-center gap-2">
+              <div className="btn-shaow-starter-section absolute bottom-[20px] right-0  bg-[#1D4841] px-2 min-h-[38.19px] lg:w-[194.07px] rounded-[23.37px] flex justify-center items-center gap-2">
                 <div className="flex items-center justify-center bg-[#FFFFFF] w-[21.09px] h-[21.09px] rounded-full">
                   <img src={logo} alt="" className="w-[10.69px] h-[11.97px] " />
                 </div>
@@ -80,7 +80,7 @@ const GetStarted = () => {
             </div>
             {/* 2nd card */}
             <div
-              className="w-[259.53px] h-[167px] relative rounded-t-[18.56px] border-b-0 bg-[#FFFFFFA1] border-2 border-[#FFFFFF] "
+              className="w-[259.53px] lg:h-[167px] h-[128.17px] relative rounded-t-[18.56px] border-b-0 bg-[#FFFFFFA1] border-2 border-[#FFFFFF] "
               style={{ backdropFilter: "blur(15.560656547546387px)" }}
             >
               <img src={img2} alt="" className="w-[210.94px]" />
@@ -90,14 +90,14 @@ const GetStarted = () => {
             </div>
             {/* 3rd card */}
             <div
-              className="w-[259.53px] h-[167px] flex justify-center pt-2 px-2 relative rounded-t-[18.56px] border-b-0 bg-[#FFFFFFA1] border-2 border-[#FFFFFF] "
+              className="w-[259.53px] lg:h-[167px] h-[128.17px] flex justify-center pt-2 px-2 relative rounded-t-[18.56px] border-b-0 bg-[#FFFFFFA1] border-2 border-[#FFFFFF] "
               style={{ backdropFilter: "blur(15.560656547546387px)" }}
             >
               <img src={img3} alt="" className="w-[240.26px]" />
             </div>
             {/* 4th card */}
             <div
-              className="w-[259.53px] h-[167px] overflow-hidden flex justify-center pt-2 px-2 relative rounded-t-[18.56px] border-b-0 bg-[#FFFFFFA1] border-2 border-[#FFFFFF] "
+              className="w-[259.53px] lg:h-[167px] h-[128.17px] overflow-hidden flex justify-center pt-2 px-2 relative rounded-t-[18.56px] border-b-0 bg-[#FFFFFFA1] border-2 border-[#FFFFFF] "
               style={{ backdropFilter: "blur(15.560656547546387px)" }}
             >
               <div className="flex flex-col">
