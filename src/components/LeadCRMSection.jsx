@@ -18,14 +18,15 @@ export default function LeadCRMSection() {
             Every LinkedIn Prospector faces these daily challenges
           </h2>
 
-          <div className="relative grid md:grid-cols-2 gap-20 max-w-6xl mx-auto">
-            <div className="hidden md:block absolute top-8 bottom-[55%] left-1/2 w-px bg-gray-300" />
-            <div className="hidden md:block absolute bottom-8 top-[55%] left-1/2 w-px bg-gray-300" />
+          <div class="relative grid lg:grid-cols-2 gap-20 max-w-6xl mx-auto">
+            <div class="block absolute left-8 right-[55%] top-1/2 h-px bg-gray-300 lg:hidden" />
+            <div class="block absolute right-8 left-[55%] top-1/2 h-px bg-gray-300 lg:hidden" />
+            
+            <div class="hidden lg:block absolute top-8 bottom-[55%] left-1/2 w-px bg-gray-300" />
+            <div class="hidden lg:block absolute bottom-8 top-[55%] left-1/2 w-px bg-gray-300" />
 
-            <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <div className="bg-inherit py-2 text-gray-700 font-semibold ">
-                VS
-              </div>
+            <div class="flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <div class="bg-inherit py-2 text-gray-700 font-semibold">VS</div>
             </div>
 
             <div className="bg-[#FFF7F8] rounded-xl shadow p-6 md:p-10 text-left">

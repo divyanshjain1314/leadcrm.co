@@ -47,7 +47,7 @@ const Steps = () => {
         <div key={step.id} className="relative flex-1">
           {/* Decorative line only after first card */}
           {index !== stepsData.length - 1 && (
-            <div className="absolute right-[-20%] top-[15%] flex items-center justify-center z-0">
+            <div className="absolute lg:right-[-20%] right-[-30%] top-[15%] flex items-center justify-center z-0">
               <img
                 src={cardsLine}
                 alt="Decorative line"
@@ -58,7 +58,7 @@ const Steps = () => {
 
           {/* Step Card */}
           <div
-            className={`relative flex flex-col items-center text-center z-10 ${
+            className={`h-full relative flex flex-col items-center text-center z-10 ${
               step.isCustomDesign
                 ? "bg-[#FFFFFF] py-4 rounded-[12px]"
                 : "bg-gray-50"

@@ -54,7 +54,7 @@ const LinkedInSales = () => {
     },
   ];
   return (
-    <div className="bg-white min-h-screen p-6 py-20 font-sans relative overflow-x-hidden">
+    <div className="bg-white p-6 py-20 font-sans relative overflow-x-hidden">
       <img src={salesIcon} alt="bot" className="absolute left-0 top-0 w-[111.35px]" />
 
       <div className="text-center mb-16">
@@ -95,7 +95,7 @@ const LinkedInSales = () => {
         </span>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 mt-8">
+      <div className="grid lg:grid-cols-2 gap-6 mt-8">
         <div className="bg-[#F0F4FD] p-6 rounded-[12px] linked-sales-cards-shadow">
           <h2 className="text-[#262626] text-[22px] font-[600]">
             Here is how LeadCRM tackles that situation.

@@ -96,7 +96,7 @@ const SupportedLeadCRM = () => {
           ))}
         </div>
 
-        <div className="z-1 h-full ml-[40%] xl:ml-0">
+        <div className="z-10 h-full ml-[40%] xl:ml-0">
           <div className="w-[134.37px] h-[134.37px] rounded-full flex justify-center items-center bg-[#E5FAFF] border border-[#E5E5E5]">
             <img
               src={logoIcon}
@@ -230,38 +230,38 @@ const SupportedLeadCRM = () => {
         </div>
 
         {/* Right side of buttons */}
-        <div className="absolute z-2 right-[36%] top-[36%]">
+        <div className="absolute z-2 right-[36%] lg:top-[36%] top-[23.5%]">
           {btn({
             name: "Employees",
             type: "primary",
-            dotgap: "gap-10",
+            dotgap: "gap-26 lg:gap-10",
             btnStyle,
           })}
         </div>
-        <div className="absolute z-2 right-[32.5%] top-[37.5%]">
-          {btn({ name: "Website", type: "success", dotgap: "gap-8", btnStyle })}
+        <div className="absolute z-2 right-[32.5%] lg:top-[37.5%] top-[25%]">
+          {btn({ name: "Website", type: "success", dotgap: "gap-24 lg:gap-8", btnStyle })}
         </div>
-        <div className="absolute z-2 right-[25.8%] top-[39%]">
+        <div className="absolute z-2 right-[25.8%] lg:top-[39%] top-[27.5%]">
           {btn({
             name: "Conversations",
             type: "danger",
-            dotgap: "gap-6",
+            dotgap: "gap-21 lg:gap-6",
             btnStyle,
           })}
         </div>
-        <div className="absolute z-2 right-[20.7%] top-[40.5%]">
+        <div className="absolute z-2 right-[20.7%] lg:top-[40.5%] top-[30%]">
           {btn({
             name: "Last Name",
             type: "danger",
-            dotgap: "gap-4",
+            dotgap: "gap-18 lg:gap-4",
             btnStyle,
           })}
         </div>
-        <div className="absolute z-2 right-[16%] top-[42%]">
+        <div className="absolute z-2 right-[16%] lg:top-[42%] top-[32.5%]">
           {btn({
             name: "First Name",
             type: "danger",
-            dotgap: "gap-2",
+            dotgap: "gap-14 lg:gap-2",
             btnStyle,
           })}
         </div>
