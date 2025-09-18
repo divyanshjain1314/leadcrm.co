@@ -67,3 +67,7 @@ body {
   stroke-dashoffset: 14, 14;
   border: 3px solid #1E80A536
 }
+
+button, a {
+  cursor: pointer;
+}
