@@ -1,6 +1,8 @@
 import React from "react";
 import Steps from "./work-card/Steps";
 import ballIcon from "../assets/images/Ball.png";
+import lines1 from "../assets/images/lines-1.png";
+import lines3 from "../assets/images/lines-3.png";
 
 const HowItWorksSection = () => {
   return (
@@ -8,11 +10,11 @@ const HowItWorksSection = () => {
       <div className="bg-[#EAEFFA] rounded-[15px] ">
         <div
           className="rounded-[20px]"
-          style={{ background: "url(/src/assets/images/lines-1.png)" }}
+          style={{ background: `url(${lines1})` }}
         >
           <div
             className=" rounded-[20px]"
-            style={{ background: "url(/src/assets/images/lines-3.png)" }}
+            style={{ background: `url(${lines3})` }}
           >
             <div className="py-[44px]">
               <div className="container mx-auto px-6 z-1">
