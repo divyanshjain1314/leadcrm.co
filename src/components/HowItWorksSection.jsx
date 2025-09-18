@@ -1,8 +1,8 @@
 import React from "react";
 import Steps from "./work-card/Steps";
 import ballIcon from "../assets/images/Ball.png";
-import lines1 from "../assets/images/lines-1.png";
-import lines3 from "../assets/images/lines-3.png";
+import lines1 from "../assets/images/lines1.png";
+import lines3 from "../assets/images/lines3.png";
 
 const HowItWorksSection = () => {
   return (
