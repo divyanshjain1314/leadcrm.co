@@ -112,28 +112,26 @@ export default function HeroSection() {
         </div>
 
         <div className="flex justify-center gap-4">
-          <div className="flex justify-between items-center gap-10 bg-[#373737] p-[12px] rounded-[13px]  shadow">
-            <a
-              href="#"
+          <button className="flex justify-between items-center gap-10 bg-[#373737] p-[12px] rounded-[13px]  shadow">
+            <span
               className="flex flex-col items-baseline text-[#FFFFFF] font-[500] text-[16px]"
             >
               <span className="text-[#E4E4E4] text-[12px] font-[400]">
                 Available in
               </span>{" "}
               Chrome Web Store
-            </a>
-            <div className="w-[34px] h-[34px] flex justify-center items-center bg-white rounded-full">
+            </span>
+            <span className="w-[34px] h-[34px] flex justify-center items-center bg-white rounded-full">
               <img src={chromeLogo} alt="chromeLogo" />
-            </div>
-          </div>
-          <div className="flex justify-center items-center bg-[#B3FC6A] px-6 py-3 rounded-[13px] shadow">
-            <a
-              href="#"
+            </span>
+          </button>
+          <a className="flex justify-center items-center bg-[#B3FC6A] px-6 py-3 rounded-[13px] shadow">
+            <span
               className=" text-[#242424] text-[18px]  font-[600]  leading-0"
             >
               Get a Free Trial Now!
-            </a>
-          </div>
+            </span>
+          </a>
         </div>
       </div>
     </section>
